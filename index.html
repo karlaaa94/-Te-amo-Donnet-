@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>¡Te amo, Donnet! &#128151;&#128144;</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body onclick="PlayAudio()">
+<div class="envlope-wrapper">
+    <div id="envelope" class="close">
+        <div class="front flap"></div>
+        <div class="front pocket"></div>
+        <div class="letter"> 
+            <div class="words line1"><center style="color:#a10000"><b>¡FELIZ CUMPLEAÑOS,</b></center></div> 
+            <div class="words line2"><center style="color:#a10000"><b>MI AMOR! ❤</b></center></div>
+            <div class="words line3"><center style="color:#a10000"><b>¡TE AMO!</b></center></div>
+            <div class="words line4"></div>
+        </div>
+        <div class="hearts">
+            <div class="heart a1"></div>
+            <div class="heart a2"></div>
+            <div class="heart a3"></div>
+        </div>
+    </div>
+</div>
+<div class="reset">
+    <button id="open">Abrir</button>
+    <button id="reset">Cerrar</button>
+</div>
+
+<audio id="musica1" loop>
+<source src="audio/cancion.mp3" type="audio/mpeg">
+</audio>
+
+<script>
+    function PlayAudio() {
+        document.getElementById("musica1").play();
+    }
+</script>
+
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js'></script><script  src="./script.js"></script>
+</body>
+</html>
